@@ -1,18 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
 
 body {
-    color: black;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
 }
 
-footer {
-    color: #000;
+/*------------------------------ Start Navbar --*/
+
+.navbar {
+    padding: 0;
+    
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: .2rem;
+    color: #fff;
+    margin-left: 5px;
 }
 
 
+
+/*------------------------------ End Navbar --*/
 
 /*------------------------------ Start Hero Image --*/
 
-.hero-image {
+.hero-image-container {
     height: 100vh;
 
     background: url('../images/bg.jpg') no-repeat bottom right fixed;
@@ -27,4 +45,45 @@ footer {
 
     position: relative;
 }
-    
+
+/* The overlay code below was taken from the course material and all credit and acknowledgement for the code goes to Code Institute, Matt Rudge */
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+  
+/*------------------------------ End Hero Image --*/
+
+/*------------------------------ Start Jumbotron --*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbrotron-header {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .3rem;
+    margin-bottom: 25px;
+    text-shadow: .1rem .1rem .8rem black;
+}
+
+.jumbotron p {
+    font-style: italic;
+    font-weight: 400;
+    color: rgb(250, 243, 243);
+    text-shadow: .1rem .1rem .9rem black;
+}
+
+/*------------------------------ End Jumbotron --*/
+
+/*------------------------------  Start Bar Seperator --*/
+
+
+/*------------------------------  End Bar Seperator --*/
