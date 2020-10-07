@@ -5,6 +5,7 @@ html {
 body {
     overflow-x: hidden;
     font-family: "Roboto", sans-serif;
+    background-color: #0a0a0a;
 }
 
 /*------------------------------ Start Navbar --*/
@@ -26,6 +27,9 @@ body {
     margin-left: 5px;
 }
 
+.navbar-nav .nav-color .ml-auto li a {
+    color: #fafafa;
+}
 
 
 /*------------------------------ End Navbar --*/
@@ -34,6 +38,7 @@ body {
 
 .hero-image-container {
     height: 100vh;
+    max-width: 100%;
 
     background: url('../images/bg.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -86,6 +91,56 @@ body {
 /*------------------------------ End Jumbotron --*/
 
 /*------------------------------  Start Bar Seperator --*/
-
+.short-bar {
+    
+    width: 10%;
+    border: 1px solid #fafafa;
+    border-radius: 5%;
+    background-color: #fafafa;
+    z-index: 1;
+}
 
 /*------------------------------  End Bar Seperator --*/
+
+/*------------------------------  Start Footer --*/
+.nav .nav-item a {
+    margin-bottom: 10px;
+    color: #616161;
+    font-weight: bold;
+    font-size: .6rem;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+}
+.nav .nav-item .active {
+    color: white;
+}
+
+.nav .nav-item a:hover {
+    color: #bdbdbd;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #424242;
+}    
+
+.copyright-text {
+    color: #fafafa;
+    font-size: .7rem;
+}
+
+/*------------------------------  End Footer --*/
