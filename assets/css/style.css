@@ -40,11 +40,13 @@ body {
     height: 100vh;
     max-width: 100%;
 
-    background: url('../images/bg.jpg') no-repeat bottom right fixed;
+    background: url('../images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     
     display: flex;
     align-items: center;
@@ -52,7 +54,6 @@ body {
 
     position: relative;
 }
-
 /* The overlay code below was taken from the course material and all credit and acknowledgement for the code goes to Code Institute, Matt Rudge */
 
 .dark-overlay {
@@ -72,7 +73,7 @@ body {
     background-color: transparent;
 }
 
-.jumbrotron-header {
+.jumbotron-header {
     color: white;
     text-transform: uppercase;
     font-weight: bold;
@@ -144,3 +145,25 @@ body {
 }
 
 /*------------------------------  End Footer --*/
+
+.hero-image-origins-container {
+    height: 100vh;
+    max-width: 100%;
+
+    background: url('../images/origins-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
