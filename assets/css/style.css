@@ -6,6 +6,7 @@ body {
     overflow-x: hidden;
     font-family: "Roboto", sans-serif;
     background-color: #0a0a0a;
+    color: white;
 }
 
 /*------------------------------ Start Navbar --*/
@@ -88,8 +89,23 @@ body {
     color: rgb(250, 243, 243);
     text-shadow: .1rem .1rem .9rem black;
 }
-
 /*------------------------------ End Jumbotron --*/
+
+/*------------------------------ Start Introduction --*/
+.introduction {
+    background-color: #212121;
+    padding: 40px 40px;
+}
+
+.h-lead {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.p-lead {
+    font-size: 1rem;
+}
+/*------------------------------ End Introduction --*/
 
 /*------------------------------  Start Bar Seperator --*/
 .short-bar {
@@ -101,6 +117,10 @@ body {
     z-index: 1;
 }
 
+.long-bar {
+    background-color: #bdbdbd;
+    width: 60%;
+}
 /*------------------------------  End Bar Seperator --*/
 
 /*------------------------------  Start Footer --*/
@@ -143,7 +163,6 @@ body {
     color: #fafafa;
     font-size: .7rem;
 }
-
 /*------------------------------  End Footer --*/
 
 .hero-image-origins-container {
