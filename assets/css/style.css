@@ -121,6 +121,11 @@ body {
     background-color: #bdbdbd;
     width: 60%;
 }
+
+.medium-bar {
+    background-color: #4d4c4c;
+    width: 35%;
+}
 /*------------------------------  End Bar Seperator --*/
 
 /*------------------------------  Start Footer --*/
@@ -165,24 +170,53 @@ body {
 }
 /*------------------------------  End Footer --*/
 
+
+/*------------------------------  Start Hero image (Origins Page) --*/
 .hero-image-origins-container {
-    height: 100vh;
+
+    height: 70vh;
     max-width: 100%;
 
-    background: url('../images/origins-bg.jpg');
+    background: url('../images/origins-background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+    display:block;
 
     position: relative;
 }
 
+.image-credit {
+    text-align: left;
+    color: #626262;
+    font-size: .75rem;
+}
+/*------------------------------  End Hero Image (Origins Page) --*/
 
+/*------------------------------  Start Page Content --*/
+.page-title h2 {
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fafafa;
+    line-height: 1.15;
+}
+
+.page-summary p {
+    font-style: italic;
+    color: #8e8e8e;
+    font-size: 1.2rem;
+}
+
+.page-content p {
+    display: block;
+    color: #fafafa;
+    text-align: left;
+    font-size: 1rem;
+}
+/*------------------------------  End Page Content --*/
