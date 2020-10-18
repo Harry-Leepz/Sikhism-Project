@@ -203,7 +203,7 @@ body {
     letter-spacing: .2rem;
     text-transform: uppercase;
     font-weight: bold;
-    color: #fafafa;
+    color: #ff9800;
     line-height: 1.15;
 }
 
@@ -218,5 +218,12 @@ body {
     color: #fafafa;
     text-align: left;
     font-size: 1rem;
+}
+
+.page-content-title {
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    color: #ff5722;
 }
 /*------------------------------  End Page Content --*/
