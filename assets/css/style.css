@@ -126,6 +126,12 @@ body {
     background-color: #4d4c4c;
     width: 35%;
 }
+
+.content-bar {
+    background-color: #4d4c4c;
+    left: 100px;
+    width: 25%;
+}
 /*------------------------------  End Bar Seperator --*/
 
 /*------------------------------  Start Footer --*/
@@ -205,6 +211,7 @@ body {
     font-weight: bold;
     color: #ff9800;
     line-height: 1.15;
+    margin-top: 100px;
 }
 
 .page-summary p {
@@ -225,5 +232,41 @@ body {
     letter-spacing: .1rem;
     font-weight: bold;
     color: #ff5722;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.content-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+    
+}
+
+@media screen and (min-width: 575px) {
+    .definition-box {
+    float: right;
+    margin: .3em 0 1.5em 1.5em;
+    width: 35%;
+    }
+}
+
+.definition-box-title {
+    background-color: #eeeeee;
+    color: black;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.definition-box-body p {
+    background-color:#212121;
+    color: #fafafa;
+    padding: 10px;
+    font-size: .9rem;
 }
 /*------------------------------  End Page Content --*/
