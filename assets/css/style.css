@@ -32,7 +32,6 @@ body {
     color: #fafafa;
 }
 
-
 /*------------------------------ End Navbar --*/
 
 /*------------------------------ Start Hero Image --*/
@@ -55,7 +54,8 @@ body {
 
     position: relative;
 }
-/* The overlay code below was taken from the course material and all credit and acknowledgement for the code goes to Code Institute, Matt Rudge */
+
+/* The overlay code below was taken from the "Whiskey Drop" course material and all credit and acknowledgement for the code goes to Code Institute, Matt Rudge */
 
 .dark-overlay {
     position: absolute;
@@ -91,23 +91,8 @@ body {
 }
 /*------------------------------ End Jumbotron --*/
 
-/*------------------------------ Start Introduction --*/
-.introduction {
-    background-color: #212121;
-    padding: 40px 40px;
-}
-
-.h-lead {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.p-lead {
-    font-size: 1rem;
-}
-/*------------------------------ End Introduction --*/
-
 /*------------------------------  Start Bar Seperator --*/
+
 .short-bar {
     
     width: 10%;
@@ -118,13 +103,17 @@ body {
 }
 
 .long-bar {
-    background-color: #bdbdbd;
-    width: 60%;
+    background-color: #fafafa;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .medium-bar {
     background-color: #4d4c4c;
     width: 35%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .content-bar {
@@ -132,9 +121,11 @@ body {
     left: 100px;
     width: 25%;
 }
+
 /*------------------------------  End Bar Seperator --*/
 
 /*------------------------------  Start Footer --*/
+
 .nav .nav-item a {
     margin-bottom: 10px;
     color: #616161;
@@ -174,10 +165,12 @@ body {
     color: #fafafa;
     font-size: .7rem;
 }
+
 /*------------------------------  End Footer --*/
 
 
 /*------------------------------  Start Hero image (Origins Page) --*/
+
 .hero-image-origins-container {
 
     height: 70vh;
@@ -201,26 +194,28 @@ body {
     color: #626262;
     font-size: .75rem;
 }
+
 /*------------------------------  End Hero Image (Origins Page) --*/
 
 /*------------------------------  Start Page Content --*/
-.page-title h2 {
-    font-size: 2.5rem;
+
+.page-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
     letter-spacing: .2rem;
-    text-transform: uppercase;
     font-weight: bold;
     color: #ff9800;
     line-height: 1.15;
     margin-top: 100px;
 }
 
-.page-summary p {
-    font-style: italic;
+.page-summary {
+    font-weight: bold;
     color: #8e8e8e;
     font-size: 1.2rem;
 }
 
-.page-content p {
+.page-content {
     display: block;
     color: #fafafa;
     text-align: left;
@@ -228,20 +223,21 @@ body {
 }
 
 .page-content-title {
+    font-family: 'Dancing Script', cursive;
     font-size: 1.8rem;
     letter-spacing: .1rem;
     font-weight: bold;
-    color: #ff5722;
+    color: #ff9800;
     text-align: left;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .content-image {
     max-width: 100%;
     height: auto;
     border-radius: 2px;
-    
+    margin-top: 2rem;
 }
 
 @media screen and (min-width: 575px) {
@@ -253,7 +249,8 @@ body {
 }
 
 .definition-box-title {
-    background-color: #eeeeee;
+    font-family: 'Dancing Script', cursive;
+    background-color: #fafafa;
     color: black;
     text-align: left;
     text-transform: uppercase;
@@ -269,4 +266,25 @@ body {
     padding: 10px;
     font-size: .9rem;
 }
+
+@media screen and (min-width: 575px) {
+.quote-box {
+    float: right;
+    margin: .3em 0 1.5em 1.5em;
+    width: 50%;
+    }
+}
+
+.blockquote p {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: #fafafa;
+    font-size: 2rem;
+}
+
+.blockquote-footer {
+    color: #626262;
+    font-weight: bold;
+}
+
 /*------------------------------  End Page Content --*/
