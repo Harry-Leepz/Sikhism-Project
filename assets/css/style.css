@@ -75,17 +75,17 @@ body {
 }
 
 .jumbotron-header {
+    font-family: 'Dancing Script', cursive;
     color: white;
-    text-transform: uppercase;
-    font-weight: bold;
+    font-size: 4rem;
+    font-weight: 700;
     letter-spacing: .3rem;
     margin-bottom: 25px;
     text-shadow: .1rem .1rem .8rem black;
 }
 
 .jumbotron p {
-    font-style: italic;
-    font-weight: 400;
+    font-weight: bold;
     color: rgb(250, 243, 243);
     text-shadow: .1rem .1rem .9rem black;
 }
