@@ -34,7 +34,7 @@ body {
 
 /*------------------------------ End Navbar --*/
 
-/*------------------------------ Start Hero Image --*/
+/*------------------------------ Start Hero Image (Landing Page) --*/
 
 .hero-image-container {
     height: 100vh;
@@ -199,7 +199,7 @@ body {
 
 /*------------------------------  Start Page Content --*/
 
-.page-title {
+.page-heading {
     font-family: 'Dancing Script', cursive;
     font-size: 3rem;
     letter-spacing: .2rem;
@@ -222,7 +222,7 @@ body {
     font-size: 1rem;
 }
 
-.page-content-title {
+.page-sub-heading {
     font-family: 'Dancing Script', cursive;
     font-size: 1.8rem;
     letter-spacing: .1rem;
@@ -288,3 +288,20 @@ body {
 }
 
 /*------------------------------  End Page Content --*/
+
+/*------------------------------  Start Citations --*/
+
+.citation-heading {
+    font-family: 'Dancing Script', cursive;
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.citation-content {
+    color: #626262;
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: right;
+}
+
+/*------------------------------  End Citations --*/
