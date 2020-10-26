@@ -265,10 +265,15 @@ body {
 .container-right {
     float: right;
     margin: .3em 0 1.5em 1.5em;
-    width: 50%;
+    width: 45%;
     }
 }
 
+@media screen and (max-width: 575px) {
+.container-right {
+    margin-bottom: 2rem;
+    }
+}
 
 .content-image-right {
     width: 100%;
