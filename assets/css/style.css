@@ -197,6 +197,27 @@ body {
 
 /*------------------------------  End Hero Image (Origins Page) --*/
 
+/*------------------------------  Start Hero Image (Philosophy Page) --*/
+
+.hero-image-philosophy-container {
+    height: 70vh;
+    max-width: 100%;
+
+    background: url('../images/philosophy-heroimage-test.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    display:block;
+
+    position: relative;
+}
+
+/*------------------------------  End Hero Image (Philosophy Page) --*/
+
 /*------------------------------  Start Page Content --*/
 
 .page-heading {
@@ -239,6 +260,23 @@ body {
     border-radius: 2px;
     margin-top: 2rem;
 }
+
+@media screen and (min-width: 575px) {
+.container-right {
+    float: right;
+    margin: .3em 0 1.5em 1.5em;
+    width: 50%;
+    }
+}
+
+
+.content-image-right {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    overflow: auto;
+    }
+
 
 @media screen and (min-width: 575px) {
     .definition-box {
