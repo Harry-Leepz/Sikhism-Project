@@ -1,9 +1,21 @@
 # **Sikhism** - A milestone project
 
-Welcome to my milestone Project, Sikhism. A website designed and developed to help people get to understand something that has meant a lot to me throughout my life, my faith, Sikhism.
+## Introduction ##
 
-Having encountered so my many people who often wonder why I look the way I do, or how Sikhism originated, I decided to use the skills I have learned so far to build a website that introduces the user to Sikhism.
-I will go into more detail below about the steps I took to plan the project, share information on the project as well as discuss how I tried to keep the user as my main focus when starting out with this project.
+Welcome to my first milestone project, Sikhism-Project.
+
+Earlier this year I decided to take a leap of faith and enrolled on a Full Stack Development course, with the hopes of changing my career and to 
+become a programmer. Up to this point in my career I have worked in multiple sectors, retail and hospitality but have never managed to get myself anywhere.
+
+The purpose of this project to show my learning and understanding of the modules and languages I have learnt, to implement them into a project 
+to showcase my skills in design and development. This project is a functional static-website, built mainly with HTML and CSS.
+
+I will outline the steps I used to build the project and the philosophy used to plan the project, my sources of inspirations 
+and my focus on user experience design.
+
+Thank you for viewing my project and I sincerely hope you enjoy the project as much as I did designing and developing it.
+
+[View live project here](https://harry-leepz.github.io/Sikhism-Project/index.html)
 
 ---
 
