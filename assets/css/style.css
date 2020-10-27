@@ -89,6 +89,30 @@ body {
     color: rgb(250, 243, 243);
     text-shadow: .1rem .1rem .9rem black;
 }
+
+/*------------------------------ A fix to the Jumbotron being to large on width at 320px --*/
+@media screen and (max-width: 320px) {
+    .jumbotron-header {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    margin-bottom: 25px;
+    text-shadow: .1rem .1rem .8rem black;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .jumbotron p {
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(250, 243, 243);
+    text-shadow: .1rem .1rem .9rem black;
+    }
+}
+/*------------------------------ End Jumbotron Fix --*/
+
 /*------------------------------ End Jumbotron --*/
 
 /*------------------------------  Start Bar Seperator --*/
