@@ -174,3 +174,114 @@ So that the user feels familiar with the site as the progress down a page.
 Responsive across all devices, to make images scale properly and do not end up pixelated, text is readable on all devices. 
 
 ---
+
+## **Skeleton Phase** ##
+
+Below is a link to the initial draft of the wireframes I created for the project and 
+an initial conceptual idea of how everything would be structured and how everything would respond on different devices.
+
+[Project-Sikhism Wireframes](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/documentation/project-wireframes.pdf)
+
+I also typed up all my pages beforehand to help me to proofread the content and fix grammatic error. 
+It also allowed me to plan my text, structure my paragraphs and condense text under subheadings.
+
+There are some differences from the wireframes to the project,
+
+- Home Page has a Jumbotron in the centre, instead of the top left corner.
+- All pages have a hero image that I felt stood and gave a positive emotion response, 
+but different from the home page on take up less of the view height space so the user understands to scroll down.
+- Aligned all images on Philosophy page to the right, instead of right-left-right. 
+It made the page a lot more aesthetically pleasing.
+- The main image in the Origin page now is centred larger. 
+- The use of floats to help the paragraphs appear smaller, 
+to give the impression progression was made faster on the page.
+- A citations section at the bottom of the page because a lot of the text content was far better phrased on other sites.
+- A send message button was added to the contact us page, which I somehow forgot to add in my initial draft.
+- There is also a wireframe for the Langar page in the tablet wireframes that will also not be included in my phase 1 release.
+
+There were some other smaller changes that I decided to go ahead with I just felt made the project more aesthetically pleasing.
+
+I feel as though my growth as I have learnt Front-Development have to led to many of the changes listed above. Also I considered feedback, and 
+my personal opinion on how the pages looked. Looking back, I definitely could of spent more time planning my approach, but this project 
+was a huge learning experience for me, and I can use this as a platform to spend more time and effort designing future projects.
+
+---
+
+## **Surface Phase** ##
+
+**Features present across the project,**
+
+- Navbar – Responsive, toggles to a hamburger menu at a width of 576pixels. Coloured grey for inactive pages and 
+coloured white for current active page. Main logo on the right acts also a link back to the home page.
+- Footer – Another smaller navigation menu for user who wish to navigate to the pages from the bottom, rather 
+than having to scroll up. Social media links always opening in a new tab to the relevant page.
+- Large hero images to draw the user’s attention. All images are bright and colourful and used to add a humane feel across the project. 
+Hero image on the landing page has a darker overlay to help the text stand out better.
+- Dark background for users to feel less tired while reading, also helps images to stand out versus a white background.
+- Contrast of fonts between header and proceeding text. Helps the pages as a whole look less monotonous, 
+and Dancing Script font really helps capture the user’s attention.
+- Consistent images used throughout the project, again gives the project a humane feel and help to invoke emotions from the user and helps 
+the user take a break from the text and help the paragraphs appear smaller. All images are relevant to the content.
+- Real quotes used as floats or used to put an end to a topic, either highlighted from the paragraph content or used to supplement to paragraph content. 
+Also helps to make paragraphs appear smaller.
+
+**Features left to implement**
+
+- Once I have some understanding of JavaScript, I would like to implement it into this project to make it more interactive and less static. 
+- Have the form send an email to me so that I can receive the message sent, now the form acts as a placeholder or to show understanding. 
+- Some form of verfication for users who do wish to send a message and click the send message button.
+- Potentially have some of the images across the project be videos or Gifs. Again, it would help the site be less static and stand out more.
+- A Light/Dark mode toggle. While collecting feedback, overall a lot of people preferred the project being dark and less straining on the eyes, 
+especially because there is so much text to read. But I would still love to implement a light mode for anybody who prefers the option.
+- Genuine Web domain and a custom URL. Would help the user experience seeing a more professional looking URL.
+
+---
+
+## **Technologies Used** ##
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - Used as the basic building block for the project and to structure the content.
+
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+    - Used to style all the web content across the project. 
+
+- [Bootstrap](https://getbootstrap.com/)
+    - Used as the main framework to make the project responsive.
+
+- [jQuery](https://jquery.com/)
+    - Used with Bootstrap to make the navbar responsive.
+
+- [JavaScript](https://www.javascript.com/)
+    - Used for the bootstrap navbar for extending collapse plugin to implement responsive behavior
+
+- [Hover.css](https://ianlunn.github.io/Hover/)
+    - Used on the social meadia icons in the footer when hovered over.
+
+- [Google Fonts](https://fonts.google.com/)
+    - Used to obtain the fonts linked in the header, fonts used were Roboto and Dancing Script
+
+- [Font Awesome](https://fontawesome.com/)
+    - Used to obtain the social media icons used in the footer.
+
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
+
+- [Github](https://github.com/)
+    - Used to store code for the project after being pushed.
+
+- [Git](https://git-scm.com/)
+    - Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+- [Gitpod](https://www.gitpod.io/)
+    - Used as the development enviroment.
+
+- [Balsamiq](https://balsamiq.com/)
+    - Used to create the wireframes for the project.
+
+- [AutoPrefixer](https://autoprefixer.github.io/)
+    - Used to parse my CSS and ass vendor prefixes.
+
+- [Grammarly](https://www.grammarly.com/)
+    - Used to fix the thousands of grammar errors across the project.
+ 
+---
