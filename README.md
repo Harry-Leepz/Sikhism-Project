@@ -97,7 +97,7 @@ Common questions being asked while doing research was,
 
 ---
 
-**Scope Phase**
+## **Scope Phase** ##
 
 Based on the Strategy goals I can establish that trying to include everything I want, and what the users would like 
 from the research was not going to be feasible from my initial release. Easiest way to approach this would be to start 
@@ -107,20 +107,20 @@ From there a phased approach would be most ideal, that allowed me to manage the 
 
 My plan for a phased releases would be,
 
-Phase 1 -
+**Phase 1** -
 
 - A home page with a small introduction to the project and faith.
 - A origins page.
 - A philosophy/core foundations page.
 - A contact us page. 
 
-Phase 2 -
+**Phase 2** -
 
 - An expansion on Sikh Gurus.
 - A page explaining “Langar”.
 - A about me page
 
-Phase 3 -
+**Phase 3** -
 
 - Interactive elements (I lack JavaScript knowledge)
 - Web domain with a customer URL
@@ -132,7 +132,7 @@ Also allows me to implement new skills I have learned and build upon the initial
 
 ---
 
-**Structure Phase**
+## **Structure Phase** ##
 
 Knowing from the beginning that the project was going to be very text rich, the biggest hurdle was going to be how to 
 keep users interested and to not be put off by a lot of text. 
@@ -142,7 +142,7 @@ I visit Polygon and PC Gamer a lot and enjoy reading articles, so looking at how
 Using Figures/Images and Blockquotes floated to ether side gave the impression there was less to read, while highlighting something important. 
 Subheadings would also allow for text to be structured better, while allowing me to add extra white space to give the reader breathing room.
 
-Colours -
+**Colours** -
 
 - Black
 - Grey
@@ -152,7 +152,7 @@ Colours -
 A black background to start with to make it more relaxing for users to read and make it less exhausting on their eyes. 
 Also allowed for images to stand out and draw attention.
 
-Typography –
+**Typography** –
 
 - Roboto
 - Dancing Script 
