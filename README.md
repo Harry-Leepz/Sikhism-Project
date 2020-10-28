@@ -1,6 +1,6 @@
 # **Sikhism** - A milestone project
 
-## Introduction ##
+## **Introduction** ##
 
 Welcome to my first milestone project, Sikhism-Project.
 
@@ -19,51 +19,38 @@ Thank you for viewing my project and I sincerely hope you enjoy the project as m
 
 ---
 
-## User Experience – UX ##
+## **UX – User Experience Design** ##
 
-I used the Jesse James Garrett philosophy to inspire how I would plan my project with the user always in mind and to help me establish which information and features were more important and therefore had higher priority when deploying my project.
+A large part of inspiration behind the planning for this project came from Jason James Garretts’s, “The Elements of User-Experience”. 
+By keeping the user in mind throughout the design and development of the project, it would be easier to make the user experience a 
+positive one. For the user to have a positive emotional response throughout the project. 
+
+The planning of the project is broken into 5 planes, 
+- The Strategy Phase
+- The Scope Phase
+- The Structure Phase
+- The Skeleton Phase
+- The Surface Phase
 
 ---
 
 
-## Strategy ##
+## **Strategy Phase** ##
 
-When initially planning my project, I thought it would be a great idea to make a website based on Sikhs, the people of the faith. As I started doing some research, I quickly noticed a correlation in the questions people had when it came to Sikhism.
+The goal as a creator of my project is to act an introduction to my faith, Sikhism.
 
-**1.	What is Sikhism?**
+**Creator stories**
 
-**2.	How did Sikism originate?**
+Creator Goals
 
-**3.	What defines are the core pillars of the faith?**
-
-I quickly understood that the project should not be about Sikhs, but more importantly focused on the faith itself. And this helped me to establish the strategy behind the project.
-
-**Who is the website aimed at?**
-
-Somebody who does not know what Sikhism is or some one who has a basic understanding of what Sikhism is but would like to build on their current knowledge and learn more about the faith.
-
-**What is the need for the website?**
-
-When I googled Sikhism, I noticed none of the searches wielded to results I was expecting. I was a surprise to see the BBC website listed and noticed the information on the sites was extremely broad and basic and did not expand of the disciplines of the faith.
-
-## User Expectations: ##
-
-I want the website to able to answer the question that I found coming up most while doing my research but also wanted to provide users with a way to be able to ask questions and get answers. 
-
-Considering the project is going to be information dense, I want to make sure,
-
-*	The user interface is easy to understand and simple in design.
-*	Can the content be viewed on different devices, does the content scale properly and is the experience viewing the site on a desktop just as good as on mobile and tablet.
-*	Is there a way to reach out, to be able to ask questions, send messages? That is easy and simple to use.
-
-Finally, should the project catch the attention of somebody that would like to collaborate in the future, I would want,
-
-*	A common goal to guide users around the site and make the information easy to take in.
-*	To encourage shared values to avoid conflict or confusion but instead to create better opportunities for expansion or innovation.
-*	My project to gain the trust and respect or potential collaborators to avoid un-equal contributions.
-*	Share my knowledge as well as learn from anyone interested in working together to grow and develop skills.
-
-Features
+- As a creator I want to make sure the project is easy to navigate.
+- As a creator, due to the text rich nature of the project, to make sure users never feel lost in the text going through the page.
+- As a creator I want the project to invoke a positive emotional response from users, potentially relating to learning something 
+new or expanding on current knowledge.
+- As a creator I want to make sure all content on the page is relatable, from images, to text and quotes and avoid elements
+from feeling random or out of place.
+- As a creator I want to avoid users from feeling overwhelmed by the amount of content, finding a way to structure content
+ so users do not feel put off from the moment they land on a page.
 
 
 
