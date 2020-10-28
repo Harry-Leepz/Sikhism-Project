@@ -36,7 +36,6 @@ The planning of the project is broken into 5 planes,
 
 ---
 
-
 ## **Strategy Phase** ##
 
 The goal as a creator of my project is to act an introduction to my faith, Sikhism.
@@ -95,3 +94,83 @@ Common questions being asked while doing research was,
 3.	What are the pillars of the faith?
 4.	Why is Sikhism important to me?
 5.	What is “Langar”?
+
+---
+
+**Scope Phase**
+
+Based on the Strategy goals I can establish that trying to include everything I want, and what the users would like 
+from the research was not going to be feasible from my initial release. Easiest way to approach this would be to start 
+with a minimum viable product, that would answer the question that came up the most. 
+
+From there a phased approach would be most ideal, that allowed me to manage the workload and give me some room to build on any feedback I receive.
+
+My plan for a phased releases would be,
+
+Phase 1 -
+
+- A home page with a small introduction to the project and faith.
+- A origins page.
+- A philosophy/core foundations page.
+- A contact us page. 
+
+Phase 2 -
+
+- An expansion on Sikh Gurus.
+- A page explaining “Langar”.
+- A about me page
+
+Phase 3 -
+
+- Interactive elements (I lack JavaScript knowledge)
+- Web domain with a customer URL
+- Light mode/Dark Mode toggle
+
+Having a phased approach to the project allows users to feel surprised when a new version is deployed with extra elements, 
+and allows me time to collect feedback and better understand flaws with my initial design or development and to help me grow. 
+Also allows me to implement new skills I have learned and build upon the initial design.
+
+---
+
+**Structure Phase**
+
+Knowing from the beginning that the project was going to be very text rich, the biggest hurdle was going to be how to 
+keep users interested and to not be put off by a lot of text. 
+Sources for inspiration to overcome this came from my mentor Aaron Sinnott and websites that are very text rich with articles and stories. 
+
+I visit Polygon and PC Gamer a lot and enjoy reading articles, so looking at how they structured their pages. 
+Using Figures/Images and Blockquotes floated to ether side gave the impression there was less to read, while highlighting something important. 
+Subheadings would also allow for text to be structured better, while allowing me to add extra white space to give the reader breathing room.
+
+Colours -
+
+- Black
+- Grey
+- Golden Yellow
+- White and off White
+
+A black background to start with to make it more relaxing for users to read and make it less exhausting on their eyes. 
+Also allowed for images to stand out and draw attention.
+
+Typography –
+
+- Roboto
+- Dancing Script 
+
+I used Dancing Script to offer a contrast to the Roboto font, it also allowed the project to not look monotonous. 
+Roboto is quite easy to read and is a more modern popular font.
+
+Consistency with the Navigation Bar and Footer elements because they will be recurring elements. 
+A smaller navigation in the footer, for the user when they reach the bottom of the page, and an easy to navigate Navigation Bar at the top.
+
+Social Media Links in the footer, with a simple hover effect the allow the user to see interaction but keep the colours subtle.
+
+Consistent imagery throughout the project, not only to help condense the text but to also give the user something to view and feel as though they can take a breath. 
+Images should be relatable to the content on the page and not feel forced or out of place.
+
+Text will be consistent on all pages with a centred title, small centred summary and finally the content of the page aligned to the left. 
+So that the user feels familiar with the site as the progress down a page.
+
+Responsive across all devices, to make images scale properly and do not end up pixelated, text is readable on all devices. 
+
+---
