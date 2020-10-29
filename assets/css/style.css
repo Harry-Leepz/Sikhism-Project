@@ -21,7 +21,6 @@ body {
 }
 
 /*------------------------------ Start Navbar --*/
-
 .navbar {
     padding: 0;
     
@@ -42,11 +41,9 @@ body {
 .navbar-nav .nav-color .ml-auto li a {
     color: #fafafa;
 }
-
 /*------------------------------ End Navbar --*/
 
 /*------------------------------ Start Hero Image (Landing Page) --*/
-
 .hero-image-container {
     height: 100vh;
     max-width: 100%;
@@ -83,12 +80,10 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-}
-  
+} 
 /*------------------------------ End Hero Image --*/
 
 /*------------------------------ Start Jumbotron --*/
-
 .jumbotron {
     background-color: transparent;
 }
@@ -131,12 +126,9 @@ body {
     text-shadow: .1rem .1rem .9rem black;
     }
 }
-/*------------------------------ End Jumbotron Fix --*/
-
 /*------------------------------ End Jumbotron --*/
 
 /*------------------------------  Start Bar Seperator --*/
-
 .short-bar {
     
     width: 10%;
@@ -158,17 +150,9 @@ body {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-
-.content-bar {
-    background-color: #4d4c4c;
-    left: 100px;
-    width: 25%;
-}
-
 /*------------------------------  End Bar Seperator --*/
 
 /*------------------------------  Start Footer --*/
-
 .nav .nav-item a {
     margin-bottom: 10px;
     color: #616161;
@@ -185,6 +169,7 @@ body {
     color: #bdbdbd;
 }
 
+/* Credit for this hover effect goes to Matt Rudge, Code Institute, Resume Project */
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -208,12 +193,10 @@ body {
     color: #fafafa;
     font-size: .7rem;
 }
-
 /*------------------------------  End Footer --*/
 
 
 /*------------------------------  Start Hero image (Origins Page) --*/
-
 .hero-image-origins-container {
 
     height: 70vh;
@@ -237,11 +220,9 @@ body {
     color: #626262;
     font-size: .75rem;
 }
-
 /*------------------------------  End Hero Image (Origins Page) --*/
 
 /*------------------------------  Start Hero Image (Philosophy Page) --*/
-
 .hero-image-philosophy-container {
     height: 70vh;
     max-width: 100%;
@@ -258,11 +239,9 @@ body {
 
     position: relative;
 }
-
 /*------------------------------  End Hero Image (Philosophy Page) --*/
 
 /*------------------------------  Start Hero Image (Contact Page) --*/
-
 .hero-image-contact-container {
     height: 70vh;
     max-width: 100%;
@@ -279,11 +258,9 @@ body {
 
     position: relative;
 }
-
 /*------------------------------  End Hero Image (Contact Page) --*/
 
 /*------------------------------  Start Page Content --*/
-
 .page-heading {
     font-family: 'Dancing Script', cursive;
     font-size: 3rem;
@@ -394,11 +371,9 @@ body {
     color: #626262;
     font-weight: bold;
 }
-
 /*------------------------------  End Page Content --*/
 
 /*------------------------------  Start Citations --*/
-
 .citation-heading {
     font-family: 'Dancing Script', cursive;
     color: #ff9800;
@@ -411,7 +386,6 @@ body {
     font-size: .8rem;
     text-align: right;
 }
-
 /*------------------------------  End Citations --*/
 
 /*------------------------------  Start Form --*/

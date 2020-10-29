@@ -75,7 +75,6 @@ Returning visitor goals:
 - As a returning visitor, I want to be able to cite the information or find out where the original source of the information came from.
 - As a returning visitor, I want to know if any new content has been added to the project quickly and efficiently, 
 can I sign up to a newsletter or get email updates?
-- As a returning visitor, I want to know where any images or videos came from, in case of personal use.
 
 From my user stories I am better able to come up with a conceptual idea of what the project needs in terms of features, which features have more priority overs.
 
@@ -322,7 +321,16 @@ there were no syntax errors in the project.
     - Updated the head element for each file, so that the page title in tabs reflects the current page.
 - Social Links in footer were not updated.
     - Removed the placeholdertext and replaced with correct link to social media link and checked it opens in a new tab.
-- On very wide screen resolutions (21:9 Aspect ratio, 3440x1440), the description for the image was diplaying to the right of the image and not undeneath. [Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/source.text.fix.png)
+- On very wide screen resolutions (21:9 Aspect ratio, 3440x1440), the description for the image was diplaying to the right of the image and not undeneath. 
+[Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/source.text.fix.png)
     - Added `display: block` to the image CSS to have the image desciption correctly sit below the image.
 - On Chrome Dev Tools, on mobile and tablet views, extra horizontal space was appearing the right, making the page appear wider.
-    - Added `overflow-x: hidden;` to the html and body in CSS, credit for this fix goes to Stackoverflow/questions when i looked up a fix for the issue.
+    - Added `overflow-x: hidden` to the html and body in CSS, credit for this fix goes to Stackoverflow/questions when I looked up a fix for the issue.
+- On 320px width devices, the jumbotron was appearing larger than the screen width. 
+[Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/320px-fix.png)
+    - Added media querie `@media screen and (max-width: 320px)` and reduced the font sizes as well as adding margin space to the top.
+
+---
+
+## **Deployment** ##
+
