@@ -6,6 +6,9 @@
 * 28/10/2020
 */
 
+/* Fix for horizontal space appearing to the right when viewing on Chrome Dev tools on tablet or mobile,
+credit to Stackoverflow forums for this fix */
+
 html {
     overflow-x: hidden;
 }

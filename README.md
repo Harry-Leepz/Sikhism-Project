@@ -285,3 +285,44 @@ especially because there is so much text to read. But I would still love to impl
     - Used to fix the thousands of grammar errors across the project.
  
 ---
+
+## **Testing** ##
+
+**Testing User stories from User Experience Design (UX) Section**
+
+[User Story Testing](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/documentation/user-story-testing.pdf)
+
+**Further Testing**
+
+- The project was tested on the following browsers with success, Google Chrome, Micrsoft Edge, Mozilla Firefox and Opera.
+- Project was manually tested on a Iphone 11 and a Samsung A70 with success.
+- Google Chrome Developer tools was used thorughout the project to help me to test the responsiveness across devices.
+- Google Chrome Developer tools used to emulate devices,
+    - Apple iPad
+    - Apple iPad Pro
+    - Microsoft Surface Duo
+    - Motorola G4
+    - Samsung Galaxy S5
+    - Google Pixel 2/2 XL
+    - Apple Iphone 5/SE
+    - Apple Iphone 6/7/8
+    - Apple Iphone 6/7/8 Plus
+    - Apple Iphone X
+
+I used the W3C Markup Validator and W3C CSS Validator  to validate every page of the project to ensure
+there were no syntax errors in the project.
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+- [W3C Markup Validator](https://validator.w3.org/)
+
+**Known Bugs and Fixs**
+
+- Page titles were not updated in the head element of the HTML files.
+    - Updated the head element for each file, so that the page title in tabs reflects the current page.
+- Social Links in footer were not updated.
+    - Removed the placeholdertext and replaced with correct link to social media link and checked it opens in a new tab.
+- On very wide screen resolutions (21:9 Aspect ratio, 3440x1440), the description for the image was diplaying to the right of the image and not undeneath. [Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/source.text.fix.png)
+    - Added `display: block` to the image CSS to have the image desciption correctly sit below the image.
+- On Chrome Dev Tools, on mobile and tablet views, extra horizontal space was appearing the right, making the page appear wider.
+    - Added `overflow-x: hidden;` to the html and body in CSS, credit for this fix goes to Stackoverflow/questions when i looked up a fix for the issue.
