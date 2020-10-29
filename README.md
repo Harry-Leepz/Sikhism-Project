@@ -312,8 +312,13 @@ I used the W3C Markup Validator and W3C CSS Validator  to validate every page of
 there were no syntax errors in the project.
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - [W3C CSS Validator Results](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/css-parsing-results.png)
 
 - [W3C Markup Validator](https://validator.w3.org/)
+    - [Home page Results](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/homepage-validator.png)
+    - [Origins page Results](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/originspage-validator.png)
+    - [Philosophy page Results](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/philosophypage-validator.png)
+    - [Contact Page Results](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/contactpage-validator.png)
 
 **Known Bugs and Fixs**
 
@@ -330,10 +335,110 @@ there were no syntax errors in the project.
 [Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/320px-fix.png)
     - Added media querie `@media screen and (max-width: 320px)` and reduced the font sizes as well as adding margin space to the top.
 - W3C Markup Validator flagged up errors across all pages because of the way I was using comments to structure my code, using more than two hypens in a comment would flag the error.
-    - Instead of `<!-------`, I instead just used `<!-- ====`. It still allowed me to structure so that was easier to read but fixed the error too. 
+[Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/markup-validator-error.png)
+    - Instead of `<!-------`, I instead just used `<!-- ====`. It still allowed me to structure my code so that was easier to read but fixed the error too. 
     Credit for this fix goes to the Stackoverflow/questions when I looked up a fix.
 
 ---
 
 ## **Deployment** ##
+
+**Github**
+
+This project is deployed using GitHub pages using the following process,
+
+**Creating a new repository**
+
+1. Login to GitHub or create an account if you do not have one.
+2. In the top right of the page, click you account for a drop down menu and select *Your repositiries*.
+3. From the Menu at the top click the *Green* button called *New*.
+4. Give your repository a name, and click the *Green* button called *Create Repository*
+
+**Deploying a GitHub Repository via GitHub Pages**
+
+1. In your *Repository* section, select the *Repository* you wish to deploy.
+2. In the top horizontal Menu, locate and click the *Settings* link.
+3. Inside the *Setting* page, around halfway down locate the *GitHub Pages* Section.
+4. Under *Source*, select the None tab and change it to *Master* and click *Save*.
+5. Finally once the page resets scroll back down to the *GitHub Pages* Section to see the following message 
+"Your site is ready to be published at *(Link to the GitHub Page Web Address)*".
+It can take time for the link to open your project initially, so please don't be worried if it down not load immediately.
+
+---
+
+## **Credits** ##
+
+**Code**
+
+- [Stackoverflow](https://stackoverflow.com/)
+    - Helping find to solution to the margin issue appearing on Chrome Dev tools.
+
+- [Matt Rudge, Code Institute](https://codeinstitute.net/) 
+    - Dark Overlay on the Home Page hero image.
+    - Social Media icons layout in the footer.
+    - Hover effect on the social media icons.
+    - Form on the Contact Us page.
+
+- [Drew Ryan](https://www.youtube.com/channel/UCtXGz0MBuqZUC8rmGddc07Q)
+    - Idea for the text shadow was taken from his video, to help the jumbotron text stand out on the hero image on the Home Page.
+    [Link to video](https://www.youtube.com/watch?v=V_lAhqLXT9A&t=835s&ab_channel=DrewRyan)
+
+- [Bootstrap](https://getbootstrap.com/)
+    - Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+**Content**
+
+-  [Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=9E9E9E&secondary.color=616161)
+    - Used to help find and select colors used throughout the project.
+
+- [Onelittleangel.com](https://www.onelittleangel.com/wisdom/quotes/saint.asp?mc=1682)
+    - Used to find quotes used on the Philosophy page.
+
+- [Learnreligions.com](https://www.learnreligions.com/the-life-of-guru-nanak-2993568)
+    - Main source of information for the Origins Page.
+
+- [Beliefnet.com](https://www.beliefnet.com/faiths/sikhism/10-things-i-wish-everyone-knew-about-sikhism.aspx)
+    - Used for content inspiration throughout the project.
+
+- [Sikhiwiki.org](https://www.sikhiwiki.org/index.php/Guru_Nanak)
+    - Used for content on the Origins page.
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Guru_Nanak)
+    - Used for content inspiration throughout the project.
+
+- [Gursikhs-hukam.blogspot.com](https://gursikhs-hukam.blogspot.com/2009/03/wand-chhakna-wand-ke-chhakna.html)
+    - Used for content on the Philosophy page.
+
+- [Allaboutsikhs.com](https://www.allaboutsikhs.com/sikh-way-of-life/sikh-principles)
+    - Used for content on the Philosophy page.
+
+Although none of the content used through the project was directly copied, a large part of the inspiration and vocabulary came from the 
+the websites listen above. This project would not be possible without the help from the websites.
+
+**Media**    
+
+- [Pixabay](https://pixabay.com/images/search/sikh/)
+    - Used for images throughout the project.
+
+- [Unsplash](https://unsplash.com/s/photos/sikh)
+    - Used for images throughout the project.
+
+**Acknowledgements**
+
+- [Polygon](https://www.polygon.com/reviews/2020/9/24/21453043/hades-review-switch-windows-early-access-supergiant-roguelite-impressions)
+    - A large inspiration behind the project on how effective the hero images on top of the pages can be 
+    and how to structure the text around floats and sub headings.
+
+- [PCGamer](https://www.pcgamer.com/uk/amnesia-rebirth-review/)
+    - How to structure the text across multiple devices and remain responsive was taken from how PCGamer structure their articles.
+
+I would like to personally thank everybody who has gone through this very very long readme and joined me on my journey to become a programmer.
+I sincerely hope you enjoyed the project and have found it useful and knowledgable. A large part of this project was done on my own, but I also had the help of my mentor
+Aaron Sinnott, who gave me ideas on how structure the large amounts of text. Apologies for any issues with the language and vocabulary used during this project,
+English is not my first language but I can assure you I am proficient at the language.
+
+I hope whoever you are and wherever you are, you are staying safe during this pandemic and you are well. May Waheguru bless us all. :)
+
+
+
 
