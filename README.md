@@ -329,6 +329,9 @@ there were no syntax errors in the project.
 - On 320px width devices, the jumbotron was appearing larger than the screen width. 
 [Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/320px-fix.png)
     - Added media querie `@media screen and (max-width: 320px)` and reduced the font sizes as well as adding margin space to the top.
+- W3C Markup Validator flagged up errors across all pages because of the way I was using comments to structure my code, using more than two hypens in a comment would flag the error.
+    - Instead of `<!-------`, I instead just used `<!-- ====`. It still allowed me to structure so that was easier to read but fixed the error too. 
+    Credit for this fix goes to the Stackoverflow/questions when I looked up a fix.
 
 ---
 
