@@ -428,8 +428,8 @@ This project would not be possible without help from the websites.
     - How to structure the text across multiple devices and remain responsive was taken from how PCGamer structure their articles.
 
 I would like to personally thank everybody who has gone through this very very long readme and joined me on my journey to become a programmer.
-I sincerely hope you enjoyed the project and have found it useful and knowledgable. A large part of this project was done on my own, but I also had the help of my mentor
-Aaron Sinnott, who gave me ideas on how structure the large amounts of text. Apologies for any issues with the language and vocabulary used during this project,
+I sincerely hope you enjoyed the project and have found it useful and knowledgeable. A large part of this project was done on my own, but I also had the help of my mentor
+Aaron Sinnott, who gave me ideas on how to structure the large amounts of text. Apologies for any issues with the language and vocabulary used during this project,
 English is not my first language but I can assure you I am proficient at the language.
 
 I hope whoever you are and wherever you are, you are staying safe during this pandemic and you are well. May Waheguru bless us all. :)
