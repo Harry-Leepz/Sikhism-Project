@@ -1,6 +1,6 @@
 # **Sikhism** - A milestone project
 
-![Responsive view of Sikhism-Project on all devices](/assets/images/responsive-view.png "Sikhism-Project")
+![Responsive view of Sikhism-Project on all devices](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/documentation/responsive-view.png "Sikhism-Project")
 
 ## **Introduction** ##
 
