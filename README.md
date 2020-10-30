@@ -205,7 +205,8 @@ was a huge learning experience for me, and I can use this as a platform to spend
 
 **Features present across the project,**
 
-- Navbar – Responsive, toggles to a hamburger menu at a width of 576pixels. Coloured grey for inactive pages and colored white for the currently active page. The main logo on the right acts also as a link back to the home page.
+- Navbar – Responsive, toggles to a hamburger menu at a width of 576pixels. Coloured grey for inactive pages and colored white for the currently active page. 
+The main logo on the left acts also as a link back to the home page.
 - Footer – Another smaller navigation menu for the user who wishes to navigate to the pages from the bottom, rather than having to scroll up. Social media links always opening in a new tab to the relevant page.
 - Large hero images to draw the user’s attention. All images are bright and colorful and used to add a humane feel across the project. 
 The hero image on the landing page has a darker overlay to help the text stand out better.
@@ -304,13 +305,13 @@ I used the W3C Markup Validator and W3C CSS Validator  to validate every page of
 there were no syntax errors in the project.
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-    - [W3C CSS Validator Results](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/css-parsing-results.png)
+    - [W3C CSS Validator Results](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/documentation/css-parsing-results.png)
 
 - [W3C Markup Validator](https://validator.w3.org/)
-    - [Home page Results](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/homepage-validator.png)
-    - [Origins page Results](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/originspage-validator.png)
-    - [Philosophy page Results](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/philosophypage-validator.png)
-    - [Contact Page Results](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/contactpage-validator.png)
+    - [Home page Results](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/documentation/homepage-validator.png)
+    - [Origins page Results](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/documentation/originspage-validator.png)
+    - [Philosophy page Results](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/documentation/philosophypage-validator.png)
+    - [Contact Page Results](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/documentation/contactpage-validator.png)
 
 **Known Bugs and Fixs**
 
@@ -319,21 +320,21 @@ there were no syntax errors in the project.
 - Social Links in footer were not updated.
     - Removed the placeholdertext and replaced with correct link to social media link and checked it opens in a new tab.
 - On very wide screen resolutions (21:9 Aspect ratio, 3440x1440), the description for the image was diplaying to the right of the image and not undeneath. 
-[Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/source.text.fix.png)
+[Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/documentation/source.text.fix.png)
     - Added `display: block` to the image CSS to have the image desciption correctly sit below the image.
 - On Chrome Dev Tools, on mobile and tablet views, extra horizontal space was appearing the right, making the page appear wider.
     - Added `overflow-x: hidden` to the html and body in CSS, credit for this fix goes to Stackoverflow/questions when I looked up a fix for the issue.
 - On 320px width devices, the jumbotron was appearing larger than the screen width. 
-[Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/320px-fix.png)
+[Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/documentation/320px-fix.png)
     - Added media query `@media screen and (max-width: 320px)` and reduced the font sizes as well as adding margin space to the top.
 - W3C Markup Validator flagged up errors across all pages because of the way I was using comments to structure my code, using more than 
 two hypens in a comment would flag the error.
-[Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/markup-validator-error.png)
+[Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/documentation/markup-validator-error.png)
     - Instead of `<!-------`, I instead just used `<!-- ====`. It still allowed me to structure my code so that was easier to read but 
     fixed the error too. 
     Credit for this fix goes to the Stackoverflow/questions when I looked up a fix.
 - Jumbotron appeared to large when the Home page wage was viewed on mobile devices in portrait mode.
-[Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/iphone5-large-text.png)
+[Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/documentation/iphone5-large-text.png)
     - Adjusted the media query `@media screen and (max-width: 320px)` fix to `@media screen and (max-width: 640px)` to fix the issue.
     - After further testing with Chrome Dev tools I believe `@media screen and (max-width: 752px)` 
     to be a better all round fix, applies the previous fix to the Iphone 6/7/8 models when 
@@ -357,6 +358,22 @@ This project is deployed using GitHub pages using the following process,
 "Your site is ready to be published at *(Link to the GitHub Page Web Address)*".
 It can take time for the link to open your project initially, so please don't be worried if it down not load immediately.
 
+**Forking the Github Repository**
+
+You can fork a GitHub Repository to make a copy of the original repository to view or make changes without it affecting the original repository.
+
+1. Find the GitHub repository.
+2. At the top of the page to the right, under your account, click the *Fork* button.
+3. You will now have a copy of the repository in your GitHub account.
+
+**Making a Local Clone**
+
+1. Find the GitHub Repository.
+2. *Click* the *Code* button
+3. *Copy* the link shown.
+4. In *Gitpod*, change the directory to the location you would like the cloned directory to be located.
+5. *Type* `git clone`, and *paste* the link you copied in step 3.
+6. Press *Enter*  to have the local clone created.
 ---
 
 ## **Credits** ##
