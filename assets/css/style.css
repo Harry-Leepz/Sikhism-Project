@@ -105,7 +105,7 @@ body {
 }
 
 /*------------------------------ A fix to the Jumbotron being to large on width at 320px --*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
     .jumbotron-header {
     font-family: 'Dancing Script', cursive;
     color: white;
@@ -118,7 +118,7 @@ body {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
     .jumbotron p {
     font-weight: bold;
     font-size: 1rem;
@@ -126,6 +126,7 @@ body {
     text-shadow: .1rem .1rem .9rem black;
     }
 }
+/*------------------------------ A fix to the Jumbotron being to large on width at 640px, with phone in portrait view --*/
 /*------------------------------ End Jumbotron --*/
 
 /*------------------------------  Start Bar Seperator --*/
