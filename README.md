@@ -338,6 +338,11 @@ there were no syntax errors in the project.
 [Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/markup-validator-error.png)
     - Instead of `<!-------`, I instead just used `<!-- ====`. It still allowed me to structure my code so that was easier to read but fixed the error too. 
     Credit for this fix goes to the Stackoverflow/questions when I looked up a fix.
+- Jumbotron appeared to large when the Home page wage was viewed on mobile devices in portrait mode.
+[Image of issue](https://github.com/Harry-Leepz/Sikhism-Project/blob/master/assets/images/iphone5-large-text.png)
+    - Adjusted the media querie `@media screen and (max-width: 320px)` fix to `@media screen and (max-width: 640px)` to fix the issue.
+    - After further testing with Chrome Dev tools I believe `@media screen and (max-width: 752px)` to be a better all round fix, applies the previous fix to the Iphone 6/7/8 models when 
+    viewed in portrait mode. 
 
 ---
 
