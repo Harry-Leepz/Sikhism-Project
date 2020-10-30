@@ -6,16 +6,18 @@
 
 Welcome to my first milestone project, Sikhism-Project.
 
-Earlier this year I decided to take a leap of faith and enrolled on a Full Stack Development course, with the hopes of changing my career and to 
-become a programmer. Up to this point in my career I have worked in multiple sectors, retail and hospitality but have never managed to get myself anywhere.
+Earlier this year I decided to take a leap of faith and enrolled in a Full Stack Development course, with the hopes of 
+changing my career and becoming a programmer. Up to this point in my career, I have worked in multiple sectors, retail, 
+and hospitality but have never managed to get myself anywhere.
 
-The purpose of this project to show my learning and understanding of the modules and languages I have learnt, to implement them into a project 
-to showcase my skills in design and development. This project is a functional static-website, built mainly with HTML and CSS.
+The purpose of this project to show my learning and understanding of the modules and languages I have learned, to 
+implement them into a project to showcase my skills in design and development. This project is a functional static-website, 
+built mainly with HTML and CSS.
 
 I will outline the steps I used to build the project and the philosophy used to plan the project, my sources of inspirations 
 and my focus on user experience design.
 
-Thank you for viewing my project and I sincerely hope you enjoy the project as much as I did designing and developing it.
+Thank you for viewing my project and I sincerely hope you enjoy the project as much as I did design and develop it.
 
 [View live project here](https://harry-leepz.github.io/Sikhism-Project/index.html)
 

@@ -97,7 +97,7 @@ body {
     margin-bottom: 25px;
     text-shadow: .1rem .1rem .8rem black;
 }
-
+/*------------------------- Idea for Jumbotron Text shadow from, Drew Ryan --*/
 .jumbotron p {
     font-weight: bold;
     color: rgb(250, 243, 243);
@@ -142,7 +142,7 @@ body {
     background-color: #fafafa;
     width: 100%;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .medium-bar {
@@ -162,6 +162,18 @@ body {
     letter-spacing: .05rem;
     text-transform: uppercase;
 }
+
+@media only screen and (min-width: 768px) {
+    .nav .nav-item a {
+    margin-bottom: 10px;
+    color: #616161;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    }
+}
+
 .nav .nav-item .active {
     color: white;
 }
@@ -218,7 +230,7 @@ body {
 
 .image-credit {
     text-align: left;
-    color: #626262;
+    color: #e0e0e0;
     font-size: .75rem;
 }
 /*------------------------------  End Hero Image (Origins Page) --*/
@@ -369,7 +381,7 @@ body {
 }
 
 .blockquote-footer {
-    color: #626262;
+    color: #e0e0e0;
     font-weight: bold;
 }
 /*------------------------------  End Page Content --*/
@@ -382,7 +394,7 @@ body {
 }
 
 .citation-content {
-    color: #626262;
+    color: #e0e0e0;
     font-weight: bold;
     font-size: .8rem;
     text-align: right;
