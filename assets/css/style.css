@@ -48,7 +48,7 @@ body {
     height: 100vh;
     max-width: 100%;
 
-    background: url('../images/bg.jpg');
+    background: url('../images/homepage-hero-image.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,7 +203,7 @@ body {
     height: 70vh;
     max-width: 100%;
 
-    background: url('../images/origins-background.jpg');
+    background: url('../images/origins-page-hero-image.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -228,7 +228,7 @@ body {
     height: 70vh;
     max-width: 100%;
 
-    background: url('../images/philosophy-heroimage-test.jpg');
+    background: url('../images/philosophy-page-hero-image.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -247,7 +247,7 @@ body {
     height: 70vh;
     max-width: 100%;
 
-    background: url('../images/contact-heroimage.jpg');
+    background: url('../images/contact-page-hero-image.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
