@@ -454,4 +454,5 @@ I hope whoever you are and wherever you are, you are staying safe during this pa
 
 
 
-Hello Christian        
+Hello Christian   
+Goodbye, Christian     
