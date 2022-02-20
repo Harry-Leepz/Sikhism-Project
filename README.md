@@ -450,9 +450,3 @@ Aaron Sinnott, who gave me ideas on how to structure the large amounts of text. 
 English is not my first language but I can assure you I am proficient at the language.
 
 I hope whoever you are and wherever you are, you are staying safe during this pandemic and you are well. May Waheguru bless us all. :)
-
-
-
-
-
-Goodbye, Christian     
